@@ -121,7 +121,7 @@ for roi = 1 : num_of_rois
                 % GOLD color for POST Ca2+ Transients
                 facecolor = [0.8314 0.6667 0];
                 
-            elseif (deltaT > -1.2) && (deltaT <= -0.05)
+            elseif (deltaT > -1.05) && (deltaT <= -0.05)
                 % RED color for PRE Ca2+ Transients
                 facecolor = [0.7490 0.1059 0.1725];    
             end
