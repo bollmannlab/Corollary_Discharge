@@ -20,7 +20,7 @@ Expected time to run the script is <10 seconds.
 
 ### Instructions for use
 
-Load your Ca2+ imaging data as a .mat file named `roisExamples.mat`, such that it contains:
+Load your Ca2+ imaging data as a .mat file named `roisExample.mat`, such that it contains:
 | Name | Description |
 |------|-------------|
 | ``sdata_rois`` | a two-dimensional double matrix (frames x rois) with time series data points in rows and each coloumn representing a time series (e.g. 88 frames x 14 rois) |
