@@ -21,6 +21,8 @@ Expected time to run the script is <10 seconds.
 ### Instructions for use
 
 Load your Ca2+ imaging data as a .mat file named `roisExamples.mat`, such that it contains:
-1. sdata_rois - a two-dimensional double matrix (frames x rois) with time series data points in rows and each coloumn representing a time series (e.g. 88 frames x 14 rois)
-2. frame_time - a 1x1 double for acquisition frame time in seconds, and
-3. swim_time - a 1x1 double for time of swim onset in seconds. 
+| Name | Description |
+|------|-------------|
+| ``sdata_rois`` | a two-dimensional double matrix (frames x rois) with time series data points in rows and each coloumn representing a time series (e.g. 88 frames x 14 rois) |
+| ``frame_time`` | a 1x1 double for acquisition frame time in seconds |
+| ``swim_time`` | a 1x1 double for time of swim onset in seconds |
